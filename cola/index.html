@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="fontawesome-pro-5.12.0-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-pro-5.12.0-web/css/fontawesome.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <p class="logo">Design X</p>
+
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#" class="active">About</a></li>
+            <li><a href="#" class="active">Service</a></li>
+            <li><a href="#" class="active">Contact</a></li>
+            <li><a href="#" class="active">Feedback</a></li>
+        </ul>
+        <button class="burger"><i class="fas fa-align-right"></i></button>
+    </nav>
+
+    <section class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 col-sm-8 col-8">
+                    <div class="textbox">
+                        <h2>That's <br> What <span class="content__span">I like</span></h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, vel! Ipsum est quod, neque ratione officia fuga sunt earum similique iusto rem atque maxime vel quisquam eius excepturi dolores? Debitis?</p>
+                        <a href="#">VIew all Products</a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="img__box">
+                        <img class="cola" src="img/colacha.png" alt="cola">
+                    </div>
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="img/colacha.png" alt="" onclick="imgSlider('img/colacha.png'); changeBgColor('#f77878'); changeColor('#000');"></li>
+                <li><img src="img/fanta.png" alt="" onclick="imgSlider('img/fanta.png'); changeBgColor('#f5bd07'); changeColor('#2906c5');"></li>
+                <li><img src="img/pepsi.png" alt="" onclick="imgSlider('img/pepsi.png'); changeBgColor('#0d6ce9'); changeColor('#f00a0a');">
+                </li>
+            </ul>
+            <ul class="icons">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
